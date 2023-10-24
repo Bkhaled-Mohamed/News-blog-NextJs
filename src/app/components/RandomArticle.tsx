@@ -9,7 +9,9 @@ const RandomArticle = ({ data }: { data: news }) => {
     <div className="flex justify-between gap-2 p-2 mb-2 border-b border-gray-300">
       <div>
         <Link href={data?.url} legacyBehavior>
-          <a target="_blanc">{data?.title}</a>
+          <a target="_blanc" className="text-sm">
+            {data?.title}{" "}
+          </a>
         </Link>
         <div className="flex flex-col space-y-2 max-w my-2 ">
           <Tag data={data?.source.name} />
