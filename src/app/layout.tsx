@@ -3,7 +3,7 @@ import { Trispace } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import WorldRandomNews from "./components/worldRandomNews";
+import WorldRandomNews from "./components/WorldRandomNews";
 
 const trispace = Trispace({ subsets: ["latin"] });
 
